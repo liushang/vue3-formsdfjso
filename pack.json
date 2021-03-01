@@ -1,0 +1,5 @@
+{
+  "rollup-plugin-esbuild": "^2.6.1",
+  "rollup-plugin-scss": "^2.6.1",
+  "rollup-plugin-vue": "^6.0.0-beta.10"
+}

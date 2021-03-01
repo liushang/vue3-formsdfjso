@@ -7,10 +7,8 @@
   },
   "dependencies": {
     "@ant-design/colors": "^6.0.0",
+    "@ant-design/icons-vue": "^6.0.1",
     "ant-design-vue": "^2.0.0",
-    "rollup-plugin-esbuild": "^2.6.1",
-    "rollup-plugin-scss": "^2.6.1",
-    "rollup-plugin-vue": "^6.0.0-beta.10",
     "vue": "^3.0.4",
     "vue-router": "^4.0.4"
   },
