@@ -11,9 +11,6 @@
           size="large"
           @click="this.$router.push('/')"
         >
-          <template #icon>
-            <HomeFilled />
-          </template>
         </a-button>
       </a-col>
       <a-col class="mr-3">
@@ -23,9 +20,6 @@
           size="large"
           @click="this.$router.push('/setting')"
         >
-          <template #icon>
-            <SettingFilled />
-          </template>
         </a-button>
       </a-col>
     </a-row>
@@ -35,12 +29,16 @@
       <router-view />
     </div>
   </a-layout-content>
+  <hello-world></hello-world>
 </template>
 
 <script lang="ts">
+import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'App',
   components: {
   }
 }
 </script>
+
+    HelloWorld
